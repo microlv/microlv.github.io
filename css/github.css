@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #ffffff;
 }
 
 h1,
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #2b81b9;
 }
 
 header .container {
@@ -100,7 +100,7 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 header .intro-text .skills {
@@ -183,6 +183,22 @@ section.success {
     color: #fff;
     background: #18bc9c;
 }
+
+section.ng-web {
+    color: #fff;
+    background: #3a3a3a;
+}
+
+section.livejs {
+    color: #fff;
+    background: #db5a42;
+}
+
+section.ng-message {
+    color: #fff;
+    background: #02a389;
+}
+
 
 @media(max-width:767px) {
     section {

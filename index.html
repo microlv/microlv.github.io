@@ -20,7 +20,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
             <a class="navbar-brand" target="_blank" href="https://github.com/microlv">
-                <i class="fa fa-github"></i> Fork me on GitHub
+                <i class="fa fa-github"></i> Fork me
             </a>
         </div>
 
@@ -76,17 +76,16 @@
                     ng-web 是一个使用 angularjs,nodejs,mongodb 建立的个人博客网站，目前demo网站已使用iojs部署，你完全可以使用它来建立自己
                     的个人博客系统！
                 </p>
+
                 <p>
-                    Demo1: <a href="http://microlv.heroku.com">http://microlv.heroku.com</a>
-                </p>
-                <p>
-                    Demo2: <a href="http://ng-web.heroku.com">http://ng-web.heroku.com</a>
+                    Demo: <a target="_blank" href="http://microlv.heroku.com">http://microlv.heroku.com</a>
                 </p>
             </div>
             <div class="col-lg-4">
                 <p>
                     ng-web is a single page application web site, technical main use angularjs,nodejs,mongodb,
-                    currently the demo web site has been changed to use iojs, you can deploy it as your self blog system!
+                    currently the demo web site has been changed to use iojs, you can deploy it as your self blog
+                    system!
                 </p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -110,13 +109,22 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete
-                    source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy
-                    customization.</p>
+                <p>livejs是一个支持promise的js库，简单但强大</p>
+
+                <p>特色:</p>
+
+                <p> 1.所有事件均支持promise，并注入defer，在defer里你可以使用 resolve/reject 来控制流程.</p>
+
+                <p> 2.检测异常，并转入到异常处理.</p>
             </div>
             <div class="col-lg-4">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or
-                    a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <p>livejs is a promise library, like q/async, but the code is simple and powerful and useful.</p>
+
+                <p>feature:</p>
+
+                <p> 1.every function will inject a argument name 'defer', you can use it to resolve/reject.</p>
+
+                <p> 2.detect the defer.err to see parent function has error or not.</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <a href="https://github.com/microlv/livejs" class="btn btn-lg btn-outline">
@@ -139,13 +147,31 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete
-                    source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy
-                    customization.</p>
+                <p>ngMessage是一款基于angularjs的消息发送库，它能使用在 controller(控制器)/service(服务)/factory(工厂) 里，
+                    由于service/factory是不包括$scope的，因此无法使用$scope来发送消息，而ngMessage正是因些而生！
+                    而且，它支持promise!
+                </p>
+
+                <p>特色:</p>
+
+                <p> 1.强大的消息机制，可当作promise使用.</p>
+
+                <p> 2.基于angular开发，比$scope发送的消息更高效.</p>
+
+                <p> 3.使用单例开发，易于使用，开放接口多.</p>
             </div>
             <div class="col-lg-4">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or
-                    a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <p>ngMessage is message center base on angularjs. it can use the message to inform other controller,
+                    also support service and factory(these don't contain $rootScope and $scope,
+                    you can't use $scope to broadcast a message in normal way), and it also support promise and then</p>
+
+                <p>feature:</p>
+
+                <p> 1.powerful message! you can use it like q/async/promise!.</p>
+
+                <p> 2.message for angular, different with $scope.$emit/$broadcast.</p>
+
+                <p> 3.use single service(like message center) to register and send.</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <a href="https://github.com/microlv/ngMessage" class="btn btn-lg btn-outline">
@@ -164,33 +190,29 @@
                 <div class="footer-col col-md-4">
                     <h3>Location</h3>
 
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    <p>RIB Company</p>
                 </div>
                 <div class="footer-col col-md-4">
                     <h3>Around the Web</h3>
                     <ul class="list-inline">
                         <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            <a href="https://github.com/microlv" class="btn-social btn-outline">
+                                <i class="fa fa-github"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            <a href="http://microlv.heroku.com" class="btn-social btn-outline">
+                                <i class="fa fa-fw fa-twitter"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>About Freelancer</h3>
+                    <h3>Contact me</h3>
 
-                    <p>Freelance is a free to use, open source Bootstrap theme created by <a
-                            href="http://sc.chinaz.com">Start Bootstrap</a>.</p>
+                    <p>andy.lv#live.com</p>
+
+                    <p>把#替换@</p>
                 </div>
             </div>
         </div>
@@ -199,7 +221,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; 2015. Microlv All rights reserved.
+                    Copyright &copy; 2014-2015. Microlv All rights reserved.
                 </div>
             </div>
         </div>
@@ -224,12 +246,8 @@
 <script src="js/classie.js"></script>
 <script src="js/cbpAnimatedHeader.js"></script>
 
-<!--&lt;!&ndash; Contact Form JavaScript &ndash;&gt;-->
-<!--<script src="js/jqBootstrapValidation.js"></script>-->
-<!--<script src="js/contact_me.js"></script>-->
-
 <!-- Custom Theme JavaScript -->
-<script src="js/freelancer.js"></script>
+<script src="js/github.js"></script>
 
 </body>
 </html>
