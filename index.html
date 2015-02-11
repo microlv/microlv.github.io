@@ -37,7 +37,10 @@
                     <a href="#livejs">livejs</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#ngMessage">ngMessage</a>
+                    <a href="#ngMessage">ng-message</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#about-me">about me</a>
                 </li>
             </ul>
         </div>
@@ -60,6 +63,50 @@
         </div>
     </div>
 </header>
+
+
+<section class="about-me" id="about-me">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>about me</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p>
+                    web攻城师，目前就职于RIB公司，职称高级工程师（码农一个），从事angularjs方面的单页应用开发。
+                </p>
+
+                <p>
+                    RIB技术讲师，精通Javascript,nodejs,mongodb。
+                </p>
+
+                <p>作为一名从C#转型到web端的开发者，我深刻体会到JS乐趣，这让我热衷于JS方面的开发，目前参与了多个开源的项目的建设。</p>
+                <br/>
+
+                <div class="text-left">
+                    <p>PROJECT:</p>
+
+                    <p>
+                        1. ng-web 是一个使用 angularjs,nodejs,mongodb 等热门技术， 目的是建立一个单页应用(sap:single page application)的个人博客系统。
+                        目前demo网站已使用iojs部署，你完全可以使用它来建立自己的个人博客系统！
+                    </p>
+
+                    <p>
+                        2. livejs 是一个支持promise的js库，简单但强大
+                    </p>
+
+                    <p>
+                        3. ngMessage是一款基于angularjs的消息库，它可以使用在任何angularjs框架里，而且，它支持promise!
+                    </p>
+                </div>
+                <img class="img-responsive" src="img/arrow.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- ng-web Section -->
 <section class="ng-web" id="ng-web">
@@ -97,7 +144,6 @@
     </div>
 </section>
 
-
 <!-- livejs Section -->
 <section class="livejs" id="livejs">
     <div class="container">
@@ -116,6 +162,12 @@
                 <p> 1.所有事件均支持promise，并注入defer，在defer里你可以使用 resolve/reject 来控制流程.</p>
 
                 <p> 2.检测异常，并转入到异常处理.</p>
+
+                <br/>
+
+                <p>download from bower:</p>
+
+                <p>bower install livejs -S</p>
             </div>
             <div class="col-lg-4">
                 <p>livejs is a promise library, like q/async, but the code is simple and powerful and useful.</p>
@@ -135,8 +187,7 @@
     </div>
 </section>
 
-
-<!-- ngMessage Section -->
+<!-- about Section -->
 <section class="ng-message" id="ngMessage">
     <div class="container">
         <div class="row">
@@ -159,6 +210,11 @@
                 <p> 2.基于angular开发，比$scope发送的消息更高效.</p>
 
                 <p> 3.使用单例开发，易于使用，开放接口多.</p>
+                <br/>
+
+                <p>download from bower(require angularjs):</p>
+
+                <p>bower install ng-message -S</p>
             </div>
             <div class="col-lg-4">
                 <p>ngMessage is message center base on angularjs. it can use the message to inform other controller,
@@ -228,8 +284,8 @@
     </div>
 </footer>
 
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll visible-xs visble-sm">
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) visible-xs visble-sm-->
+<div class="scroll-top page-scroll ">
     <a class="btn btn-primary" href="#page-top">
         <i class="fa fa-chevron-up"></i>
     </a>
